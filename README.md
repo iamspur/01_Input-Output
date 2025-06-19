@@ -3,13 +3,13 @@ a = 25
 b = 1253.59845
 c = "python"
 
-print(f"Hello {c} programming")
-print(f"{a}")
-print(f"{int(b)}")
-print(f"{c} is easy")
-print(f"{int(b-100)}")
-print(f"{b}")
-print(f"a = {a:f}")
-print(f"b = {b:.2f}")
-print(f"{a}, {b:.2f}")
-print(f"{b - a:.3f}")
+1.print(f"Hello {c} programming")
+2.print(f"{a}")
+3.print(f"{int(b)}")
+4.print(f"{c} is easy")
+5.print(f"{int(b-100)}")
+6.print(f"{b}")
+7.print(f"a = {a:f}")
+8.print(f"b = {b:.2f}")
+9.print(f"{a}, {b:.2f}")
+10.print(f"{b - a:.3f}")
