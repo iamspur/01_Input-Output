@@ -4,62 +4,69 @@ b = 1253.59845
 c = "python"
 
 1.print(f"Hello {c} programming") แสดงข้อความ Hello python programming
-2.print(f"{a}")
-3.print(f"{int(b)}")
-4.print(f"{c} is easy")
-5.print(f"{int(b-100)}")
-6.print(f"{b}")
-7.print(f"a = {a:f}")
-8.print(f"b = {b:.2f}")
-9.print(f"{a}, {b:.2f}")
-10.print(f"{b - a:.3f}")
-11.print("Hello World")
-12.print("\"I don't have a car\"")
-13.print("You got a new job!? That's so exciting")
-14.print("""a
+2.print(f"{a}") แสดงค่าตัวแปร a
+3.print(f"{int(b)}") แสดงค่าตัวแปร b เป็นจำนวนเต็ม
+4.print(f"{c} is easy") แสดงข้อความ python is easy
+5.print(f"{int(b-100)}") แสดงผล b - 100 เป็นจำนวนเต็ม
+6.print(f"{b}") แสดงค่าตัวแปร b
+7.print(f"a = {a:f}") แสดงค่าตัวแปร a เป็นทศนิยม
+8.print(f"b = {b:.2f}") แสดงค่าตัวแปร b เป็นทศนิยม 2 ตำแหน่ง
+9.print(f"{a}, {b:.2f}") แสดงค่า a และ b พร้อมกัน (b เป็นทศนิยม 2 ตำแหน่ง)
+10.print(f"{b - a:.3f}") แสดงผล b - a เป็นทศนิยม 3 ตำแหน่ง
+11.print("Hello World") แสดงข้อความ Hello World
+12.print("\"I don't have a car\"") แสดงข้อความที่มีเครื่องหมายคำพูดซ้อนกัน
+13.print("You got a new job!? That's so exciting") แสดงประโยคอุทานพร้อม !?
+14.แสดงข้อความหลายบรรทัด
+print("""a
 an
 ant""")
-15.print("""Just because something
+15.แสดงข้อความหลายบรรทัด
+print("""Just because something
 thinks differently from you,
 does that mean it's not thinking?""")
-16.a = 12.5
+16.แสดงตัวแปรทศนิยม
+a = 12.5
 print(a)
-17.
+17.แสดงผลคูณแบบประโยค
 a = 2
 b = 3
 print(f"{a} * {b} = {a*b}")
-18.
+18.บวกเลขทศนิยมและแสดงทศนิยม 4 ตำแหน่ง
 a = 2.4
 b = 2.5
 print(f"{a} + {b} = {a+b:.4f}")
-19.
+19.ลบเลขทศนิยมพร้อมจัดรูปแบบ
 a = 5
 b = 2
 print(f"{a:.2f} - {b:.2f} = {a-b:.4f}")
-20.
+20.	แสดงวันเกิดด้วยตัวแปร
 birthday = 25
 print(f"ฉันเกิดวันที่ {birthday}")
-21.
+21.แสดงผลคูณในรูปประโยคภาษาไทย
 a = 5
 b = 100
 print(f"{a} เท่าของ {b} มีค่าเท่ากับ {a*b}")
-22.
+22.**โจทย์**:  
+รับค่าตัวเลขจากผู้ใช้จำนวน 2 ค่า แล้วคำนวณผลรวม และแสดงผลลัพธ์
 n1 = float(input("ป้อนตัวเลขที่ 1: "))
 n2 = float(input("ป้อนตัวเลขที่ 2: "))
 result = n1 + n2
 print(f"ผลรวมคือ: {result}")
-23.
+23.**โจทย์**  
+รับค่าสัญลักษณ์ 1 ตัว และตัวเลขจำนวนเต็ม แล้วแสดงสัญลักษณ์นั้นซ้ำตามจำนวนที่รับเข้ามา
 str1 = input("ป้อนข้อความ: ")
 n1 = int(input("ป้อนเลขจำนวนเต็ม: "))
 result = str1 * n1
 print(f"ผลลัพธ์คือ: {result}")
-24.
+24.**โจทย์**  
+รับค่าตัวเลขจำนวนเต็ม 3 ค่า จากนั้นหาค่าเฉลี่ย และแสดงผลลัพธ์
 n1 = int(input("ป้อนเลขจำนวนแรก: "))
 n2 = int(input("ป้อนเลขจำนวนที่สอง: "))
 n3 = int(input("ป้อนเลขจำนวนที่สาม: "))
 average = (n1 + n2 + n3) / 3
 print(f"ค่าเฉลี่ยคือ: {average}")
-25.
+25.**โจทย์**  
+รับข้อมูลน้ำหนักและส่วนสูงจากผู้ใช้ (เป็นจำนวนเต็ม) แล้วแสดงผลลัพธ์
 weight = int(input("ป้อนน้ำหนัก(kg): "))
 height = int(input("ป้อนส่วนสูง(cm): "))
 print(f"ข้อมูลน้ำหนักคือ: {weight} กิโลกรัม")
