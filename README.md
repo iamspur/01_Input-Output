@@ -3,7 +3,7 @@ a = 25
 b = 1253.59845
 c = "python"
 
-1.print(f"Hello {c} programming")
+1.print(f"Hello {c} programming") แสดงข้อความ Hello python programming
 2.print(f"{a}")
 3.print(f"{int(b)}")
 4.print(f"{c} is easy")
