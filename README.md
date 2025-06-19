@@ -1,5 +1,5 @@
-```|ข้อที่|	    |ตัวอย่างชื่อไฟล์|	          |ตัวอย่างหัวข้อโจทย์|
-  1	    01_print_hello.py	        แสดงข้อความ “Hello python programming”
+```|ข้อที่||ตัวอย่างชื่อไฟล์||ตัวอย่างหัวข้อโจทย์|
+101_print_hello.pyแสดงข้อความ “Hello python programming”
   2	    02_print_a_integer.py	    แสดงค่าตัวแปร a เป็นจำนวนเต็ม (%d)
   3	    03_print_b_integer.py	    แสดงค่าตัวแปร b เป็นจำนวนเต็ม (%d)
   4	    04_print_string_easy.py	  แสดงข้อความ “python is easy”
